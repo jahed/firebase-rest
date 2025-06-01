@@ -19,20 +19,19 @@ npm install @jahed/firebase-rest
 
 ```js
 import firebase from "firebase/compat/app";
-import { createFirebaseREST } from "@jahed/createFirebaseREST";
+import { createFirebaseREST } from "@jahed/firebase-rest";
 
-// Provide the app to createFirebaseREST to create the wrapper.
+// Provide the Firebase app to createFirebaseREST.
 const firebaseREST = createFirebaseREST(
   firebaseApp.initializeApp({
-    apiKey: FN_FIREBASE_API_KEY,
-    authDomain: FN_FIREBASE_AUTH_DOMAIN,
-    databaseURL: FN_FIREBASE_DATABASE_URL,
-    storageBucket: FN_FIREBASE_STORAGE_URL,
+    apiKey: "",
+    authDomain: "",
+    databaseURL: ""
   })
 );
 
 // Use firebaseREST to access REST APIs instead of WebSockets.
-const snapshot = await firebase.database().ref("/data").get();
+const snapshot = await firebaseREST.database().ref("/data").get();
 console.log(snapshot.val());
 ```
 
