@@ -1,7 +1,7 @@
 import type firebase from "firebase/compat/app";
 
-type Firebase = typeof firebase;
-type DatabaseEventType = firebase.database.EventType;
+type Firebase = typeof firebase.default;
+type DatabaseEventType = firebase.default.database.EventType;
 
 type FirebaseRESTReponse = { name: string };
 

@@ -4,7 +4,10 @@
   "description": "Firebase JS SDK API using Firebase REST API under the hood instead of WebSockets.",
   "author": "Jahed Ahmed",
   "license": "AGPL-3.0-or-later",
-  "repository": "https://github.com/jahed/firebase-rules",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahed/firebase-rules.git"
+  },
   "bugs": "https://github.com/jahed/firebase-rules/issues",
   "funding": "https://jahed.dev/donate",
   "keywords": [
@@ -27,7 +30,7 @@
     "build": "rm -rf lib && tsc"
   },
   "devDependencies": {
-    "@tsconfig/node20": "^20.1.5",
+    "@tsconfig/node20": "20.1.5",
     "firebase": "11.8.1",
     "typescript": "5.8.x"
   }
