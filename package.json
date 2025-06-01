@@ -6,9 +6,9 @@
   "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jahed/firebase-rules.git"
+    "url": "git+https://github.com/jahed/firebase-rest.git"
   },
-  "bugs": "https://github.com/jahed/firebase-rules/issues",
+  "bugs": "https://github.com/jahed/firebase-rest/issues",
   "funding": "https://jahed.dev/donate",
   "keywords": [
     "firebase",
