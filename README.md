@@ -1,5 +1,8 @@
 # @jahed/firebase-rest
 
+[![npm](https://img.shields.io/npm/v/@jahed/firebase-rest.svg)](https://www.npmjs.com/package/@jahed/firebase-rest)
+[![author](https://img.shields.io/badge/author-jahed-%23007fff)](https://jahed.dev/)
+
 Firebase JS SDK API using Firebase REST API under the hood instead of WebSockets.
 
 - Supports most of [Firebase Real-time Database's Compat JS SDK API](https://firebase.google.com/docs/reference/js/v8/firebase.database).
