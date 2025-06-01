@@ -5,6 +5,9 @@ on:
       - "v[0-9]*"
 jobs:
   publish:
+    permissions:
+      # Needed to create a release.
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
